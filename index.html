@@ -15,7 +15,8 @@
   body{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
- 	color: #855442;
+ 	color: black;
+	background-color: white;
   }
   
   header{
@@ -23,7 +24,7 @@
   }
   
   a {
-    color: white;
+    color: black;
       font-size: 25px;
   }
   
@@ -32,7 +33,7 @@
   }
   
   a:visited {
-    color: #716E69;
+    color: black;
   }
   
   h1{
@@ -53,15 +54,15 @@
   }
   
   #what-i-do{
-	  background-color: white;
+	  background-color: black;
 	  overflow: hidden;
   }
   
   article{
 	  width: 200px;
-	  height: 245px;
+	  height: 175px;
 	  float: left;
-	  background-color: #C9B492;
+	  background-color: white;
 	  margin: 25px;
 	  padding: 25px;
   }
@@ -83,13 +84,7 @@
 	  float: left;
 	  text-align: justify;
   }
-  
-  .two-thirds{
-	  width: 580px;
-	  float: left;
-	  text-align: justify;
-	  margin-right: 20px;
-  }
+ 
   
   footer {
 	  color: #FFF;
@@ -110,6 +105,11 @@
 	height: 565px;
 }
   </style>
+  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -124,12 +124,6 @@
   <h1>A TWIST ON THE CLASSIC.</h1>
   <h3>Delivering a strategy customized to each client in order to exceed their expectations and optimize their results.</h3>
 
-<p>
-  Welcome to my website
-  It's under construction right now, come back soon!
-
-<br>
-<br>
 <br>
 
 </header>
@@ -146,13 +140,13 @@
 <article>
 <i class="fa fa-star-o fa-2x"></i>
 <h1>Branding</h1>
-<p>Every client is different and what makes them stand out is their unique branding. From strategy and identity comes a one of a kind experience that leaves a memorable impression.</p>
+<p>From strategy and identity comes a one of a kind experience that leaves a memorable impression.</p>
 </article>
 
 <article>
 <i class="fa fa-paper-plane-o fa-2x"></i>
 <h1>Marketing</h1>
-<p>Consumers have learned to filter out most generic communications and instead demand experiences relevant to their specific needs and interests. Marketing takes a new life form and becomes relevant again with no boundaries. </p>
+<p>LCommunication takes a new life form and becomes relevant again with no boundaries. </p>
 </article>
 </div>
 </section>
@@ -160,32 +154,23 @@
 <section id="who-i-am">
 <div class="container">
 <h1>WHO I AM</h1>
- 
-<br>
-
+<a class="test-popup-link" href="https://farm1.staticflickr.com/740/23519081411_4dab1db0b5_c.jpg">ME</a>
 <p>
     An Advertising student from Miami International University of Art & Design. After numerous projects and personal growth within the industry, a love and appreciation for branding and marketing has emerged. With a minor in Psychology, I view clients in a different way and get a greater insight on taking brands to a new existence.
 </p></article>
 </div>
 </section>
 
-<section id="how-i-work">
-<div class="container">
-<h1>HOW I WORK</h1>
-<p class="two-thirds">Each client is unique and requires their own strategy based on thorough research and analyzation. Each strategy will be thoroughly explained from start to finish and anyone will be able to execute it.... Goal....guidelines in pricing....Consumers have learned to filter out most generic communications and instead demand experiences relevant to their specific needs and interests. Marketing takes a new life form and becomes relevant again with no boundaries... <input type= "button" value="check out my fees here." onClick="popup()">
-</p>
-
-<p class="one-third">
-	Meeting options: Phone, Skype, Google Hangouts, Facetime
-</p>
-</div>
 
 <section id="my-resume">
+<div class="container">
 <h1>MY RESUME</h1>
-<iframe src="https://docs.google.com/document/d/1qhI2V86u6-mYiWaViewItwZBYO_ROwmNEcn4ibBZmrQ/pub?embedded=true"></iframe>
+<a class="test-popup-link" href="https://farm1.staticflickr.com/617/23305246770_1b89ceb5a0_z.jpg">
+<img src="https://farm1.staticflickr.com/617/23305246770_1b89ceb5a0_z.jpg" alt="Resume"></a>
 </section>
 
 <section id="my-portfolio">
+<div class="container">
 <h1>MY PORTFOLIO</h1>
 <iframe src="https://docs.google.com/document/d/1IH7JyWCtJAuxJLeOAhBPMqeHN9SuEuCHP0lkpQ-4CIo/pub?embedded=true"></iframe>
 </section>
@@ -193,9 +178,8 @@
 <footer>
 
 <a href="https://instagram.com/vane.di"><i class="fa fa-instagram"></i></a>
-<iframe src="http://snapwidget.com/sc/?u=dmFuZS5kaXxpbnwxNTB8M3wzfHxub3w1fG5vbmV8b25TdGFydHx5ZXN8bm8=&ve=011215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:500px; height:150px"></iframe>
-
 </footer>
+<iframe src="http://snapwidget.com/in/?u=dmFuZS5kaXxpbnwxMjV8M3wzfHxub3w1fG5vbmV8b25TdGFydHxub3xubw==&ve=011215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:390px"></iframe>
 
 <br>
 
@@ -203,6 +187,13 @@
 <a href="http://vanessadiez.me/">ABOUT</a>
 <a href="http://vanessadiez.me/">CONTACT</a>
 <br>
+
+<script
+$('.test-popup-link').magnificPopup({
+  type: 'image'
+  // other options
+});
+</script>
 
 </body>
 
